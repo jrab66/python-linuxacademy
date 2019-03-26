@@ -74,3 +74,10 @@ my_list.pop(0) = remove first element // queue
 my_list.append(5) = add the element to the list
 my_list.insert(index,item) = add element to certain place
 
+
+## tuples
+
+inmutable fixed size or modified
+
+tuple= (2,3,4)
+
