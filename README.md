@@ -176,7 +176,38 @@ def contact_card(name,age,car_model):
 def can_drive(age, driving_age=16):
     return age>=driving_age
 ////
+```
 can_drive(22)
 can_drive(22,18)
+```
+
+Classes
+
+class use camel case 
+
+use pass to omit some def 
+```
+def test(self):
+    logic
+    pass
+```
+
+importing classes
+
+all class
+"""
+import math
+"""
+
+only part
+```
+from math import pi
+from tireclass import Tire
+```
 
 
+
+using doctest
+```
+ python3 -m doctest -v tireclass.py 
+```
